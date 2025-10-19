@@ -114,4 +114,4 @@ To set up and run this project locally, follow these steps:
 
 ## Contact
 
-For any questions or inquiries, please contact [Your Name/Email/LinkedIn].
+For any questions or inquiries, please contact Shaikh sadique/ x.com https://x.com/Shaikh_Sadique3?t=TxxFnePvzEl-YZPOSpQ3iQ&s=08 .
