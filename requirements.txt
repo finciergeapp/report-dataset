@@ -1,0 +1,9 @@
+pandas
+numpy
+Faker
+dash
+plotly
+scikit-learn
+matplotlib
+seaborn
+reportlab
