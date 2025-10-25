@@ -1,0 +1,3 @@
+[build]
+  command = "pip install -r requirements.txt && python scripts/reporteda.py && python scripts/eda.py && python scripts/generate_visuals.py && python scripts/generate_report.py"
+  publish = "reports"

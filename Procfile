@@ -1,0 +1,1 @@
+web: waitress-serve --port=$PORT dash_app.dashboard:app.server
