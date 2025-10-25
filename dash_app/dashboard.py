@@ -151,8 +151,4 @@ def create_dashboard(file_path: str = "../data/blood_reports_dataset.csv") -> da
     return app
 
 
-from waitress import serve
-
-if __name__ == '__main__':
-    app = create_dashboard()
-    serve(app.server, host='0.0.0.0', port=8050)
+app = create_dashboard()
