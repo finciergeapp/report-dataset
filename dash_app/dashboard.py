@@ -24,7 +24,7 @@ def create_dashboard(file_path: str = "data/blood_reports_dataset.csv") -> dash.
     df = pd.read_csv(file_path)
 
     # Initialize the Dash app
-    app = dash.Dash(__name__)
+    app = dash.Dash(__name__, assets_folder='dash_app/assets')
 
     # Layout of the dashboard
     app.layout = html.Div([
