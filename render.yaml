@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: blood-report-dashboard
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: waitress-serve --port=$PORT dash_app.dashboard:app.server
+    rootDir: .
