@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5; /* Light grey/blue background */
+    color: #333;
+}
+
+.dash-app-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #0056b3; /* Professional blue for headings */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Select-control, .Select-menu-outer, .Select-value-label {
+    border-color: #007bff !important;
+    color: #0056b3 !important;
+}
+
+.Select-option.is-focused {
+    background-color: #e0f2f7 !important; /* Light blue on hover */
+}
+
+.Select-option.is-selected {
+    background-color: #007bff !important; /* Blue for selected item */
+    color: white !important;
+}
+
+.graph-container {
+    margin-top: 30px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+/* Plotly chart specific styling */
+.js-plotly-plot .plotly .modebar {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}
+
+.js-plotly-plot .plotly .cursor-pointer {
+    fill: #007bff;
+}

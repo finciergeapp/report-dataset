@@ -28,19 +28,26 @@ The goal of this project is to simulate a real-world scenario of analyzing medic
 
 ```
 .
-├── Blood_Report_Analytics_Report.pdf
-├── anemia_distribution.png
-├── blood_reports_dataset.csv
-├── client.md
-├── crp_trends.png
-├── dashboard.py
-├── eda.py
-├── executive_summary.md
-├── generate_report.py
-├── generate_visuals.py
-├── infection_trends.png
-├── predictive_analytics.py
-└── reporteda.py
+├── README.md
+├── requirements.txt
+├── data/
+│   └── blood_reports_dataset.csv
+├── scripts/
+│   ├── reporteda.py
+│   ├── eda.py
+│   ├── predictive_analytics.py
+│   ├── generate_visuals.py
+│   └── generate_report.py
+├── dash_app/
+│   └── dashboard.py
+├── docs/
+│   ├── client.md
+│   └── executive_summary.md
+└── reports/
+    ├── Blood_Report_Analytics_Report.pdf
+    ├── anemia_distribution.png
+    ├── crp_trends.png
+    └── infection_trends.png
 ```
 
 ## Setup and Installation
@@ -114,4 +121,21 @@ To set up and run this project locally, follow these steps:
 
 ## Contact
 
-For any questions or inquiries, please contact Shaikh sadique/ x.com https://x.com/Shaikh_Sadique3?t=TxxFnePvzEl-YZPOSpQ3iQ&s=08 .
+For any questions or inquiries, please contact Shaikh Sadique (x.com/Shaikh_Sadique3).
+
+## Contributing
+
+We welcome contributions to this project! If you'd like to contribute, please follow these steps:
+
+1.  **Fork the repository.**
+2.  **Create a new branch** for your feature or bug fix: `git checkout -b feature/your-feature-name` or `git checkout -b bugfix/issue-description`.
+3.  **Make your changes** and ensure they adhere to the project's coding standards.
+4.  **Write clear commit messages**.
+5.  **Push your changes** to your forked repository.
+6.  **Submit a pull request** to the `main` branch of this repository, describing your changes in detail.
+
+Please ensure your code is well-documented and includes appropriate tests where applicable.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
