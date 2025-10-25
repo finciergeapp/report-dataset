@@ -11,7 +11,7 @@ import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
 
-def create_dashboard(file_path: str = "../data/blood_reports_dataset.csv") -> dash.Dash:
+def create_dashboard(file_path: str = "data/blood_reports_dataset.csv") -> dash.Dash:
     """Creates and configures the Dash dashboard for blood report analytics.
 
     Args:
