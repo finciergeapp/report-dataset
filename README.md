@@ -12,6 +12,10 @@ The goal of this project is to simulate a real-world scenario of analyzing medic
 4.  **Predictive Analytics**: Implementation of a machine learning model to predict diagnoses based on blood test parameters.
 5.  **Professional Reporting**: Generation of a comprehensive PDF report summarizing the project's findings, visualizations, and model performance.
 
+## Deployment
+
+This application is deployed live on Render and can be accessed here: [Blood Report Analytics Dashboard](https://blood-report-analytics.onrender.com/)
+
 ## Features
 
 *   **Synthetic Data Generation**: `reporteda.py` generates a dataset of 1,000,000 synthetic blood test records.
